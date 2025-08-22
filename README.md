@@ -40,10 +40,6 @@ The layout adapts seamlessly to **mobile, tablet, and desktop** devices with med
 ┣ index.html
 ┗ README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 📌 Future Improvements
