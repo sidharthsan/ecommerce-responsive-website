@@ -34,7 +34,6 @@ The layout adapts seamlessly to **mobile, tablet, and desktop** devices with med
 📁 ecommerce-website
 ┣ 📁 css
 ┃ ┣ style.css
-┃ ┗ utils.css
 ┣ 📁 images
 ┃ ┗ (all images used)
 ┣ index.html
