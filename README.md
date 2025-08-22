@@ -8,10 +8,10 @@ The layout adapts seamlessly to **mobile, tablet, and desktop** devices with med
 ## 📸 Screenshots
 
 ### Mobile View  
-(Add a screenshot here)
+[screenshot here](https://github.com/sidharthsan/ecommerce-responsive-website/blob/main/screenshots/Mobile.jpg)
 
 ### Desktop View  
-(Add a screenshot here)
+[screenshot here](https://github.com/sidharthsan/ecommerce-responsive-website/blob/main/screenshots/Desktop.png)
 
 ---
 
