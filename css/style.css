@@ -65,7 +65,16 @@ nav {
     align-items: center;
 }
 
-div .button-shop-all {
+.most-popular-img img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+
+.most-popular-img img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.button-shop-all {
     padding: 35px 0px;
     display: flex;
     justify-content: center;
@@ -80,6 +89,15 @@ div .button-shop-all {
     border-radius: 4px;
     padding: 13px 28px;
     cursor: pointer;
+}
+
+.shop-all-button{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-all-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .about {
@@ -107,6 +125,15 @@ div .button-shop-all {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+.about-image img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .about1 {
