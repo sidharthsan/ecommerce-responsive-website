@@ -65,12 +65,24 @@ nav {
     align-items: center;
 }
 
-.most-popular-img img{
+.hero-img4 {
+    display: none;
+}
+
+.hero-img5 {
+    display: none;
+}
+
+.hero-img6 {
+    display: none;
+}
+
+.most-popular-img img {
     transition: transform 0.3s ease, box-shadow 0.3s ease
 }
 
-.most-popular-img img:hover{
-    transform: scale(1.1);
+.most-popular-img img:hover {
+    transform: scale(1.05);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
@@ -83,21 +95,18 @@ nav {
 
 .shop-all-button {
 
-    background-color: #4D4689;
-    color: white;
-    border: none;
+    color: #4D4689;
+    border: 2px solid #4D4689;
     border-radius: 4px;
     padding: 13px 28px;
     cursor: pointer;
+      font-family: "Quicksand", sans-serif;
 }
 
-.shop-all-button{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.shop-all-button:hover{
-    transform: scale(1.1);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+.shop-all-button:hover {
+    background-color: #4D4689;
+    color: white;
 }
 
 .about {
@@ -127,12 +136,12 @@ nav {
     gap: 50px;
 }
 
-.about-image img{
+.about-image img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-image img:hover{
-    transform: scale(1.1);
+.about-image img:hover {
+    transform: scale(1.05);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
@@ -233,6 +242,18 @@ nav {
         width: 100%;
     }
 
+    .hero-img4 {
+        display: block;
+    }
+
+    .hero-img5 {
+        display: block;
+    }
+
+    .hero-img6 {
+        display: block;
+    }
+
     .about-under p {
         font-size: 3vw;
     }
@@ -247,16 +268,28 @@ nav {
 }
 
 
-@media (min-width: 1200px){
-    .about-under p{
+@media (min-width: 1200px) {
+    .about-under p {
         font-size: 2vw;
     }
 
-    .shop{
+    .shop {
         width: 25%;
     }
 
-    .copyright{
+    .hero-img4 {
+        display: block;
+    }
+
+    .hero-img5 {
+        display: block;
+    }
+
+    .hero-img6 {
+        display: none;
+    }
+
+    .copyright {
         font-size: 1vw;
     }
 }
