@@ -55,3 +55,7 @@ Sidharth San
 
 📜 License
 This project is licensed under the MIT License – feel free to use and modify.
+
+##Live Demo
+Check out the deployed website here: 
+[NextCart Live](https://nextcart-responsive.netlify.app)
